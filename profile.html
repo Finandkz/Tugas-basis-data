@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile - Blog Pribadi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<script>
+  function toggleMenu() {
+    document.querySelector('.nav-links').classList.toggle('show');
+  }
+</script>
+<body class="profile">
+
+<nav>
+  <div class="garistiga" onclick="toggleMenu()">&#9776;</div>
+  <div class="nav-links">
+    <a href="index.html">Beranda</a>
+    <a href="profile.html">Profile</a>
+  </div>
+</nav>
+
+
+  <section class="banner profile-banner">
+    <div class="banner-text profile-layout">
+      <img src="https://i.pinimg.com/1200x/fa/74/f4/fa74f42d3ea32c600367c17abfd9c863.jpg" alt="FKZ" class="profile-pic">
+      <div class="profile-info">
+        <h1>Finand Kanahaya Zaldi</h1>
+        <div style="display:flex; gap:25px;">
+          <div>KELAS <br>IF24D</div>
+          <div>NIM <br>24416255201151</div>
+          <div>FAKULTAS<br>Ilmu Komputer</div>
+          <div>Program Studi <br>Teknik Informatika</div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <div style="background: rgb(41, 39, 39); padding: 20px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); color: inherit; display: block; text-align: center;">
+    <h2 style="color: white;">Materi</h2>
+  </div>
+  <div class="section">
+    <div class="card">
+      <img src="https://i.pinimg.com/736x/d6/84/fb/d684fb333a3a3e171ab2a4c7f6062317.jpg" alt="harapan" class="foto">
+      <p><b>Basis Data</b></p>
+      <h3>Harapan Mata Kuliah Basis Data Kedepannya</h3>
+    </div>
+  
+    <div class="card">
+      <img src="https://i.pinimg.com/736x/19/bb/8a/19bb8a41e6022afa7dd0b4ca149c8648.jpg" alt="harapan" class="foto">
+      <p><b>Basis Data</b></p>
+      <h3>Apa Itu Basis Data?</h3>
+    </div>
+
+    <div href="#" class="card">
+      <img src="https://i.pinimg.com/736x/a6/69/20/a66920819e7adbbef34214ce22805059.jpg" alt="harapan" class="foto">
+      <p><b>Basis Data</b></p>
+      <h3>Apa Itu Conceptual DB?</h3>
+    </div>
+
+    <div class="card">
+      <img src="https://i.pinimg.com/1200x/d3/08/03/d308034fa16723e7143a7798ae7a5706.jpg" alt="harapan" class="foto">
+      <p><b>Basis Data</b></p>
+      <h3>Apa Itu Physical Model?</h3>
+    </div>
+  </div>
+
+</body>
+</html>
